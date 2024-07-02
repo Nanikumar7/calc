@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css"> 
+</head>
+<body>
+    <div id="cen">
+
+        <div id="tit" >
+            <h1>Calculator</h1>
+            <h3>by Nani</h3>
+            <br><br>
+        </div>
+     
+        <div id="calculator" >
+            <input id="display" readonly>
+            <div id="keys">
+                <button  onclick="appendValue('+')" class="operator-btn">+</button>
+                <button  onclick="appendValue('7')">7</button>
+                <button  onclick="appendValue('8')">8</button>
+                <button  onclick="appendValue('9')">9</button>
+                <button  onclick="appendValue('-')" class="operator-btn">-</button>
+                <button  onclick="appendValue('4')">4</button>
+                <button  onclick="appendValue('5')">5</button>
+                <button  onclick="appendValue('6')">6</button>
+                <button  onclick="appendValue('*')" class="operator-btn">*</button>
+                <button  onclick="appendValue('1')">1</button>
+                <button  onclick="appendValue('2')">2</button>
+                <button  onclick="appendValue('3')">3</button>
+                <button  onclick="appendValue('/')" class="operator-btn">/</button>
+                <button  onclick="appendValue('.')" class="operator-btn2">.</button>
+                <button  onclick="compute('=')" class="operator-btn2">=</button>
+                <button  onclick="clearDisplay()" class="operator-btn2">C</button>
+                
+            </div>
+        </div>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
